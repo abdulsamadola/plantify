@@ -80,6 +80,7 @@
         android:fontFamily="@font/sfuitext_semibold"
         android:shadowColor="@android:color/transparent"
         android:text="@string/login"
+        android:onClick="goToLogin"
         android:textAllCaps="false"
         android:textColor="#FBFBFB"
         android:textSize="14sp"

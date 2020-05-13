@@ -3,16 +3,20 @@ package com.campstore.plantify.ui;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.LinearGradient;
 import android.graphics.Shader;
 import android.os.Bundle;
 import android.text.Html;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.campstore.plantify.R;
 import com.campstore.plantify.controller.SliderAdapter;
+
+import spencerstudios.com.bungeelib.Bungee;
 
 public class onBoarding extends AppCompatActivity {
 private TextView greenerLabel;
@@ -91,5 +95,10 @@ private TextView[] mTextViews;
                 tile_mode);
         Shader shader_gradient = lin_grad;
         greenerLabel.getPaint().setShader(shader_gradient);
+    }
+
+    public void goToLogin(View view) {
+    startActivity(new Intent(this,Login.class));
+        Bungee.slideLeft(this);
     }
 }
