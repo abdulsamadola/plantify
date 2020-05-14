@@ -3,6 +3,7 @@ package com.campstore.plantify.ui;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.campstore.plantify.R;
 
@@ -21,5 +22,9 @@ public class Detail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+    }
+
+    public void goBack(View view) {
+        onBackPressed();
     }
 }
