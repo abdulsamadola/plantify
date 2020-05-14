@@ -2,7 +2,7 @@ Plantify
 ===============
 
 A Plantify  built using Android Studio. I'm super excited to have worked on this.
-[Plant UI Kit from Paolo Spazzini](https://www.epicpxls.com/items/plant-ui-kit) 
+[Plant UI Kit from Paolo Spazzini](https://dribbble.com/shots/4569970-Plant-Freebie-2-Dribbble-Invites/attachments/1033490) 
 <br />
 
 
