@@ -93,11 +93,13 @@
                         android:layout_width="200dp"
                         android:layout_height="100dp"
                         android:layout_marginRight="10dp"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/img_shelve_small_1" />
 
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/img_shelve_small_2" />
                 </LinearLayout>
 
@@ -111,11 +113,13 @@
                         android:layout_width="150dp"
                         android:layout_height="130dp"
                         android:layout_marginEnd="10dp"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/img_shelve_small_3" />
 
                     <ImageView
                         android:layout_width="150dp"
                         android:layout_height="130dp"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/img_shelve_small_4" />
                 </LinearLayout>
 
@@ -127,6 +131,7 @@
                     <ImageView
                         android:layout_width="315dp"
                         android:layout_height="100dp"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/img_shelve_small_5" />
 
                 </LinearLayout>
@@ -145,6 +150,7 @@
             android:fontFamily="@font/sfuitext_semibold"
             android:shadowColor="@android:color/transparent"
             android:text="Filter"
+            android:onClick="goToSettings"
             android:layout_marginTop="5dp"
             android:textAllCaps="false"
             android:textColor="#FBFBFB"

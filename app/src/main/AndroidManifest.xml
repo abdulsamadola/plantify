@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.Explore"></activity>
+        <activity android:name=".ui.Settings"></activity>
+        <activity android:name=".ui.Explore" />
         <activity android:name=".ui.Detail" />
         <activity android:name=".ui.Dashboard" />
         <activity android:name=".ui.Login" />

@@ -2,6 +2,7 @@ package com.campstore.plantify.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -25,5 +26,10 @@ public class Explore extends AppCompatActivity {
 
     public void goBack(View view) {
         onBackPressed();
+    }
+
+    public void goToSettings(View view) {
+        startActivity(new Intent(this, Settings.class));
+        Bungee.card(this);
     }
 }
