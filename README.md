@@ -2,11 +2,13 @@ Plantify
 ===============
 
 A Plantify  built using Android Studio. I'm super excited to have worked on this.
-[Planify UI from 
-Abdulsamad Suleiman](https://github.com/abdulsamadola) 
+[Plant UI Kit from Paolo Spazzini](https://www.epicpxls.com/items/plant-ui-kit) 
+<br />
 
 
-<table style="width:100%">
+
+
+<table style="width:100%;background: red">
   <tr>
     <th><img src="https://github.com/abdulsamadola/plantify/blob/master/screenshots/screenshot1.png" width="300" height="500" alt="Plantify"/></th>
     <th>
