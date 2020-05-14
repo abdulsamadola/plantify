@@ -37,6 +37,7 @@
         android:layout_height="285dp"
         android:layout_marginTop="32dp"
         android:scaleType="centerCrop"
+        android:onClick="goToExplore"
         android:src="@drawable/img_bedroom_big"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
